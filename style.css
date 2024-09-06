@@ -1,0 +1,100 @@
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+.g-height-50 {
+  height: 50px;
+}
+
+.g-width-50 {
+  width: 50px !important;
+}
+
+@media (min-width: 0) {
+  .g-pa-30 {
+    padding: 2.14286rem !important;
+  }
+}
+
+.g-bg-secondary {
+  background-color: #2b3035 !important;
+}
+
+.u-shadow-v18 {
+  box-shadow: 0 5px 10px -6px rgba(0, 0, 0, 0.15);
+}
+
+.g-color-gray-dark-v4 {
+  color: #777 !important;
+}
+
+.g-font-size-12 {
+  font-size: 0.85714rem !important;
+}
+
+.media-comment {
+  margin-top: 20px;
+}
+.class-image {
+  border-radius: 2rem;
+}
+.class-image:hover {
+  filter: saturate(2);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.container.d-flex.justify-content-between {
+  height: 100vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container.d-flex.justify-content-between a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: #dee2e6;
+}
+.container.d-flex.justify-content-between a:hover {
+  filter: saturate(2);
+  font-size: 4rem;
+  transition: 0.5s;
+}
+.mt-5.pod:hover {
+  filter: saturate(1.2);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.mt-5.pod {
+  border-radius: 2rem;
+  margin-bottom: 40px;
+}
+.text-center.display-4.mb-4.g-bg-secondary.mx-auto.py-4 {
+  width: 100%;
+}
+@media (max-width: 460px) {
+  .class-image {
+    height: 200px;
+  }
+}
+.icon-square.text-body-emphasis.bg-body-secondary.d-inline-flex.align-items-center.justify-content-center.fs-4.flex-shrink-0.me-3 {
+  background-color: #71B4BA !important;
+}
+nav {
+  background-color: #71b4ba !important;
+}
+body {
+  color: #112a46 !important;
+}
+.text-center.display-4.mb-4.g-bg-secondary.mx-auto.py-4 {
+  background-color: #eeeeee !important;
+  color: #000000;
+}
+.btn-text a {
+  color: white !important;
+}
+.owl-nav, .owl-dots {
+  display: none;
+}
+footer {
+  background-color: #eeeeee;
+}
